@@ -1,0 +1,156 @@
+body {                                     /*fondo de la pagina*/
+    background-color: rgb(250, 242, 248);
+}
+
+
+#titulo {                                 /*Las Delicias De Caroli*/
+    color: orchid;
+    font-family:'Lobster', cursive;   /*fuente*/
+    font-size: 50px;
+}
+
+
+#subtitulo {                                /*Nuestra historia*/
+    color: white;
+    background-color: rgba(212, 69, 189, 0.8);
+    font-family:'Lobster', cursive;   /*fuente*/
+    font-weight: 550;                 /*grosor*/
+}
+
+
+h2.subtitulos {                             /*Envíos, productos*/
+    color: white;
+    background-color: rgba(212, 69, 189, 0.8);
+    font-family:'Lobster', cursive;   /*fuente*/
+    font-weight: 550;                 /*grosor*/
+}
+
+
+img {                                        /*imagenes*/
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin: 10px 10px; 
+    border-radius: 5px;
+}
+
+
+a {    /*NO SE ME CENTRA PORQUE TIENE QUE ESTAR DENTRO DE UN NAV*/
+    text-align: center;                     /*enlaces*/                 
+    font-family:'Lobster', cursive;     /*fuente*/
+}
+
+a:hover {                                  /*enlaces*/
+    color:fuchsia;
+    text-decoration:none;
+    font-family:'Lobster', cursive;    /*fuente*/            
+}
+ 
+a:active{                                 /*enlaces*/
+    color:purple; 
+    font-size:medium;
+    font-family:'Lobster', cursive;   /*fuente*/
+}
+
+a:visited {                              /*enlaces*/
+    color: rgb(124, 11, 105);
+}
+
+.container{
+    width: 1500px;
+    height: 600px;
+    background-color: rgba(212, 69, 189, 0.8);;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card1{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 15%, rgba(0,38,217,1) 97%);
+    background-size: 100% 150px;  
+    background-repeat: no-repeat; 
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0.1px;  
+    text-align: center;
+}
+
+.card2{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background: rgb(30, 0, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,186,226,0.49653364763874297) 47%);
+    background-size: 100% 150px;  
+    background-repeat: no-repeat; 
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0.1px;  
+    text-align: center;
+}
+
+.card3{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background: rgb(126,7,155);
+    background: linear-gradient(90deg, rgba(126,7,155,0.7959558823529411) 50%, rgba(248,0,255,0.6839110644257703) 97%);
+    background-size: 100% 150px;  
+    background-repeat: no-repeat; 
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0.1px;  
+    text-align: center;
+}
+
+.card4{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background: rgb(24,48,28);
+    background: linear-gradient(90deg, rgba(24,48,28,1) 0%, rgba(95,141,78,1) 50%, rgba(24,48,28,1) 100%);
+    background-size: 100% 150px;  
+    background-repeat: no-repeat; 
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0.1px;  
+    text-align: center;
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.foto1{
+    background-image: url(img/lau.PNG);
+}
+
+.foto2{
+    background-image: url(img/lumi.PNG);
+}
+
+.foto3{
+    background-image: url(img/caro.PNG);
+}
+
+.foto4{
+    background-image: url(img/nahue.PNG);
+}
